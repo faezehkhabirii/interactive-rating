@@ -1,0 +1,74 @@
+.star-img-container{
+   height: 45px; 
+   width: 45px;
+   border-radius: 55%;
+   background-color: hsl(211, 19%, 24%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.title-rating{
+    color: white;
+    
+}
+.text-rating{
+   color: hsl(217, 15%, 71%);
+   
+   font-size: 0.9rem; 
+   line-height: 1.4rem;
+}
+
+.rating{
+ display: flex;
+ justify-content: center;
+ align-items: center;   
+ margin-bottom: 2rem;
+
+ cursor: pointer;
+}
+
+.rating-container{
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: hsl(211, 19%, 24%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+}
+
+.rating-container.active{
+    background-color:hsl(216, 12%, 54%);
+    color: white;
+}
+.rating-container:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submit-btn{
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding: 12px 0;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+    font-family: inherit;
+    font-weight: 700;
+}
+
+.submit-btn:active{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
